@@ -5,6 +5,7 @@ import {
     AppointmentsDayView,
     Customer
 } from '../src/AppointmentsDayView';
+jest.mock('relay-runtime');
 
 describe('Appointment', () => {
     let render: Container['render'], element: Container['element'];

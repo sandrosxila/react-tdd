@@ -5,6 +5,7 @@ import { CustomerSearch } from '../../src/CustomerSearch/CustomerSearch';
 import { fetchResponseOk } from '../spyHelpers';
 import { MemoryRouter } from 'react-router-dom';
 import * as SearchButtonsExports from '../../src/CustomerSearch/SearchButtons';
+jest.mock('relay-runtime');
 
 describe('CustomerSearch', () => {
     let renderAndWait: Container['renderAndWait'];

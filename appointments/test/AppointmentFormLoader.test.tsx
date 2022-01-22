@@ -4,6 +4,7 @@ import { Container, createContainer } from './domManipulators';
 import { fetchResponseOk } from './spyHelpers';
 import AppointmentFormLoader from '../src/AppointmentFormLoader';
 import * as AppointmentFormExports from '../src/AppointmentForm';
+jest.mock('relay-runtime');
 
 describe('AppointmentFormLoader', () => {
     let renderAndWait: Container['renderAndWait'];

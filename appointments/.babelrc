@@ -5,9 +5,8 @@
         "@babel/preset-typescript"
     ],
     "plugins": [
-        "@babel/transform-runtime",
-        "@babel/plugin-transform-typescript",
         "relay",
-        "macros"
+        "@babel/transform-runtime",
+        "@babel/plugin-transform-typescript"
     ]
 }

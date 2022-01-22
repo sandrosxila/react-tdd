@@ -2,7 +2,7 @@ import { put, call } from 'redux-saga/effects';
 import { fetchQuery, graphql } from 'relay-runtime';
 
 import { getEnvironment } from '../relayEnvironment';
-jest.mock('relay-runtime');
+
 
 export const query = graphql`
     query queryCustomerQuery($id: ID!) {

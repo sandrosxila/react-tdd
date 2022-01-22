@@ -7,6 +7,7 @@ import {
 } from '../src/AppointmentsDayViewLoader';
 import * as AppointmentsDayViewExports
     from '../src/AppointmentsDayView';
+jest.mock('relay-runtime');
 
 describe('AppointmentFormLoader', () => {
     let renderAndWait: Container['renderAndWait'];

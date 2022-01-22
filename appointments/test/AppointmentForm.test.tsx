@@ -4,6 +4,7 @@ import { ContainerWithStore, createContainerWithStore, withEvent } from './domMa
 import AppointmentForm from '../src/AppointmentForm';
 import { fetchResponseOk, fetchResponseError, requestBodyOf } from './spyHelpers';
 import 'whatwg-fetch';
+jest.mock('relay-runtime');
 
 describe('AppointmentForm', () => {
 

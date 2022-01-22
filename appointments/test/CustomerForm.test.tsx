@@ -5,6 +5,7 @@ import CustomerForm from '../src/CustomerForm';
 import { fetchResponseOk, fetchResponseError, requestBodyOf } from './spyHelpers';
 import 'whatwg-fetch';
 import { expectRedux } from 'expect-redux';
+jest.mock('relay-runtime');
 
 describe('CustomerForm', () => {
 
