@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "jest"
+  ],
+  "extends": [
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "jest/expect-expect": [
+      "warn",
+      {
+        "assertFunctionNames": [
+          "expect"
+        ],
+        "additionalTestBlockFunctions": []
+      }
+    ],
+    "jest/no-focused-tests": "warn",
+    "react/jsx-key": ["warn"]
+  }
+}
